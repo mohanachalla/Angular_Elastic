@@ -1,0 +1,10 @@
+/* src/app/search-result-detail/search-result-detail.component.css */
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    float: right;
+    width: calc(100% - 300px); /* Adjust the width as per your design */
+  }
+  

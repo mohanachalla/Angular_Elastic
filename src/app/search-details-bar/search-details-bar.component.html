@@ -1,0 +1,10 @@
+<!-- src/app/search-details-bar/search-details-bar.component.html -->
+
+<div class="search-details-bar" *ngIf="selectedArticle">
+    <span class="close-button" (click)="closeDetails()">X</span>
+    <h2>{{ selectedArticle.name }}</h2>
+    <!--<p>Document ID: {{ selectedArticle.id }}</p>-->
+    <p>Engine: {{ selectedArticle.engine }}</p>
+    <p>Price: {{ selectedArticle.price }}</p>
+    <p>Year: {{ selectedArticle.year }}</p>
+</div>
