@@ -9,7 +9,7 @@ import { ArticleInterface } from './article.interface';
 export class ArticlesService {
   private readonly apiUrl = 'http://localhost:9200';
   private readonly username = 'elastic';
-  private readonly password = '59_8hPulJNsJ0YH5*XOs';
+  private readonly password = '****************';
   private readonly indexNames = ['cars', 'cars_new']; // Add the other index names here
 
   private selectedArticleSubject = new BehaviorSubject<ArticleInterface | null>(null);
